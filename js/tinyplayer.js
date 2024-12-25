@@ -403,7 +403,7 @@ function tinyplayer(TrackList, ShowWaveform, ShowHelp) {
 			}
 
 			//display help?
-			if (ShowHelp != undefined) {
+			if (ShowHelp) {
 				//add help to all_tracks div ID
 				help('all_tracks');
 			}
